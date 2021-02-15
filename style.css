@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;}
+
+#banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://www.smilefoundationindia.org/plate-half-full-digi/images/banner-1.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+}
+#navbar{
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: rgba(0,0,0,0.10);
+    height: 80px;
+    padding: 10px 35px;
+    /* background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)); */
+}
+.logo{
+    font-size: 18px;
+    height: 65px;
+    width: 200px;
+    margin-top: 0;
+    margin-left: 20px;
+}
+.menu{
+    font-size: 16px;
+    color: rgb(231, 171, 17);
+    padding: 0 25px;
+    border: 2px solid transparent;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 600;
+
+}
+.menu:hover{
+    color: black;
+    background-color:rgb(231, 171, 17);
+}
+ul li{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#maintext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.heading{
+    color: rgb(52, 177, 79);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 75px;
+    font-weight: 500;
+
+}
